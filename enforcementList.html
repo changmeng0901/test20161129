@@ -1,0 +1,455 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=8" />
+
+    <title>执法信息列表</title>
+    <link type="text/css" rel="stylesheet" href="css/bootstrap3.min.css" />
+    <link type="text/css" rel="stylesheet" href="css/bootstrap-select.min.css" /> 
+    <link type="text/css" rel="stylesheet" href="css/bootstrap-datetimepicker.min.css" /> 
+    <link type="text/css" rel="stylesheet" href="style.css" />
+    <link type="text/css" rel="stylesheet" href="css/enforcement.css"/>
+
+</head>
+
+<body>
+<div class="top">
+    <div class="logo"><img src="images/logo_01.jpg" width="200" height="60" /></div>
+</div>
+
+<div class="content">
+    <!--左边开始-->
+    <table width="100%" height="100%" cellpadding="0" cellspacing="0">
+        <tr>
+            <td class="left_c" valign="top" width="76">
+                <div class="left_c1">
+                    <ul class="left_cul">
+                        <li class="left_culi"><a href="#"><img src="images/le_19.png" width="77" height="69" /></a></li>
+                        <li class="left_culi on"><a href="#"><img src="images/le_21.png" width="77" height="69" /></a></li>
+                        <li class="left_culi"><a href="#"><img src="images/le_22.png" width="77" height="69" /></a></li>
+                        <li class="left_culi"><a href="#"><img src="images/le_23.png" width="77" height="69" /></a></li>
+                        <li class="left_culi"><a href="#"><img src="images/le_24.png" width="77" height="69" /></a></li>
+                    </ul>
+                    <div class="clear"></div>
+                </div>
+                
+            </td>
+             
+    <!--左边结束-->
+    <!--二级列表开始-->
+            <td valign="top" width="210" style=" border-right:1px solid #e1e4eb;">
+                <div class="left_c2">
+                    <ul class="lt_c_ul" style=" min-height:200px; border-bottom:1px solid #e1e4eb;">
+                        <li>
+                            <a href="#"><img src="images/enterpriseInfoMation_03.png" width="12" height="12" />&nbsp;公司信息</a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/qie_05.png" width="12" height="12" />&nbsp;农场信息</a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/jixie.png" width="12" height="12" />&nbsp;认证信息</a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/renyuan.png" width="12" height="12" />&nbsp;人员管理</a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/jixie.png" width="12" height="12" />&nbsp;农机管理</a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/qoe_03.png" width="12" height="12" />&nbsp;地块管理</a>
+                        </li>
+                        <li>
+                            <a class="fon_07" href="#"><strong><img src="images/ico_zhifa.png" width="12" height="12" />&nbsp;执法管理</strong></a>
+                        </li>
+                    </ul>
+                    <div class="clear"></div>
+                </div>
+            </td>
+    <!--二级列表结束-->
+    
+    <!--右边开始-->
+            <td valign="top">
+            <div class="right_c" style="min-height:30px;">
+                <!-- 面包屑导航 开始 -->
+                <div class="r_title clear">
+                    <div class="r_t_l fl">记录&nbsp;&gt;&nbsp;&nbsp;<font size="3">地块信息</font></div>
+                    <div class="fr" style="margin-bottom:-1px;float:right;">
+                        <ul class="cm_resumeList clear">
+                            <li>
+                                <a href="BuyingLeads.html" class="borderBt">
+                                    <img src="images/qoe_03.png"><span>地块信息</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="MyProvider.html">
+                                    <img src="images/qie_05.png"><span>地块详情</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- 公用搜索 开始 -->
+                <div class="search_header clear" style="padding-right:0;">
+                    <div class="search_blt">
+                        <div class="public-search fl mr5">
+                            <span class="octicon-search02"></span>
+                            <input type="text" class="form-control" value="请输入执法人搜索" style="width:230px;">
+                        </div>
+                        <input class="btn btn-primary" type="button" value="搜索" />
+                    </div>
+                    <div class="search_selected fl">
+                        <dl class="se_selt180 fl" style="width:230px;">
+                            <dt style="width:50px;">地块</dt>
+                            <dd class="boot_selected_180">
+                                <select class="selectpicker">
+                                    <option selected="selected">全部</option>
+                                    <option>执法地块执法地块执法地块执法地块1</option>
+                                    <option>执法地块2</option>
+                                    <option>执法地块3</option>
+                                </select>
+                            </dd>
+                        </dl>
+                        <dl class="se_selt180 fl" style="width:382px;">
+                            <dt>执法时间</dt>
+                            <dd>
+                                <div class="boot_datetime_140 clear">
+                                    <div class="input-append date form_datetime" id="iMonth" >
+                                        <input size="26" type="text" placeholder="" readonly>
+                                        <span class="add-on"><i class="icon-th"></i></span>
+                                    </div>
+                                    <span class="boot_line">--</span>
+                                    <div class="input-append date form_datetime" id="iMonth" >
+                                        <input size="26" type="text" placeholder="" readonly>
+                                        <span class="add-on"><i class="icon-th"></i></span>
+                                    </div>
+                                </div>
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+                <!-- 已读和未读邮件列表 开始 -->
+                <ol class="enforce_date_block">
+                    <li class="date_item">
+                        <em class="year_md">2016/03/14</em>
+                        <table class="date_table" cellpadding="0" cellspacing="0" width="100%">
+                            <tr>
+                                <td class="date_tdlt" width="110">
+                                    <span class="zf_timer">11:04</span>
+                                </td>
+                                <td class="date_tdrt">
+                                    <div class="read_state">
+                                    <div class="state_info">
+                                        <i class="i_icon">
+                                            <img src="images/enforcement_ico6.png" />
+                                        </i>
+                                        <p class="reason">确权信息不明确，土地种植方法不正确，没有按照科学的方法进行高效种植！</p>
+                                        <div class="area_pic clear">
+                                            <a href="javascript:;">
+                                                <img src="images/enforcement_img1.jpg">
+                                            </a>
+                                            <a href="javascript:;">
+                                                <img src="images/enforcement_img1.jpg">
+                                            </a>
+                                            <a href="javascript:;">
+                                                <img src="images/enforcement_img1.jpg">
+                                            </a>
+                                        </div>
+                                        <div class="mt5 clear">
+                                            <p class="p_txt mr20 fl"><img src="images/enforcement_ico2.jpg" /><span>执法地块：</span>5号大田</p>
+                                            <p class="p_txt mr20 fl"><img src="images/enforcement_ico3.jpg" /><span>执法人：</span>李四</p>
+                                        </div>
+                                    </div>   
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                        <table class="date_table" cellpadding="0" cellspacing="0" width="100%">
+                            <tr>
+                                <td class="date_tdlt" width="110">
+                                    <span class="zf_timer">11:04</span>
+                                </td>
+                                <td class="date_tdrt">
+                                    <div class="read_state">
+                                    <div class="state_info">
+                                        <i class="i_icon">
+                                            <img src="images/enforcement_ico7.png" />
+                                        </i>
+                                        <p class="reason">确权信息不明确，土地种植方法不正确，没有按照科学的方法进行高效种植！</p>
+                                        <div class="area_pic clear">
+                                            <a href="javascript:;">
+                                                <img src="images/enforcement_img1.jpg">
+                                            </a>
+                                            <a href="javascript:;">
+                                                <img src="images/enforcement_img1.jpg">
+                                            </a>
+                                            <a href="javascript:;">
+                                                <img src="images/enforcement_img1.jpg">
+                                            </a>
+                                        </div>
+                                        <div class="mt5 clear">
+                                            <p class="p_txt mr20 fl"><img src="images/enforcement_ico2.jpg" /><span>执法地块：</span>5号大田</p>
+                                            <p class="p_txt mr20 fl"><img src="images/enforcement_ico3.jpg" /><span>执法人：</span>李四</p>
+                                        </div>
+                                    </div>   
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </li>
+                    <li class="date_item">
+                        <em class="year_md">2016/03/12</em>
+                        <table class="date_table" cellpadding="0" cellspacing="0" width="100%">
+                            <tr>
+                                <td class="date_tdlt" width="110">
+                                    <span class="zf_timer">11:04</span>
+                                </td>
+                                <td class="date_tdrt">
+                                    <div class="read_state">
+                                    <div class="state_info">
+                                        <i class="i_icon">
+                                            <img src="images/enforcement_ico6.png" />
+                                        </i>
+                                        <p class="reason">确权信息不明确，土地种植方法不正确，没有按照科学的方法进行高效种植！</p>
+                                        <div class="area_pic clear">
+                                            <a href="javascript:;">
+                                                <img src="images/enforcement_img1.jpg">
+                                            </a>
+                                            <a href="javascript:;">
+                                                <img src="images/enforcement_img1.jpg">
+                                            </a>
+                                            <a href="javascript:;">
+                                                <img src="images/enforcement_img1.jpg">
+                                            </a>
+                                        </div>
+                                        <div class="mt5 clear">
+                                            <p class="p_txt mr20 fl"><img src="images/enforcement_ico2.jpg" /><span>执法地块：</span>5号大田</p>
+                                            <p class="p_txt mr20 fl"><img src="images/enforcement_ico3.jpg" /><span>执法人：</span>李四</p>
+                                        </div>
+                                    </div>   
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                        <table class="date_table" cellpadding="0" cellspacing="0" width="100%">
+                            <tr>
+                                <td class="date_tdlt" width="110">
+                                    <span class="zf_timer">11:04</span>
+                                </td>
+                                <td class="date_tdrt">
+                                    <div class="read_state">
+                                    <div class="state_info">
+                                        <i class="i_icon">
+                                            <img src="images/enforcement_ico7.png" />
+                                        </i>
+                                        <p class="reason">确权信息不明确，土地种植方法不正确，没有按照科学的方法进行高效种植！</p>
+                                        <div class="area_pic clear">
+                                            <a href="javascript:;">
+                                                <img src="images/enforcement_img1.jpg">
+                                            </a>
+                                            <a href="javascript:;">
+                                                <img src="images/enforcement_img1.jpg">
+                                            </a>
+                                            <a href="javascript:;">
+                                                <img src="images/enforcement_img1.jpg">
+                                            </a>
+                                        </div>
+                                        <div class="mt5 clear">
+                                            <p class="p_txt mr20 fl"><img src="images/enforcement_ico2.jpg" /><span>执法地块：</span>5号大田</p>
+                                            <p class="p_txt mr20 fl"><img src="images/enforcement_ico3.jpg" /><span>执法人：</span>李四</p>
+                                        </div>
+                                    </div>   
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </li>
+                </ol>
+                <!-- 无数据 开始 -->
+                <p class="pank_nodata" style="margin:90px 0;padding:45px 0;">
+                    <img src="images/enforcement_ico1.jpg" />
+                    <font>暂无执法信息</font>
+                </p>
+                <!-- 主体内容 结束 -->
+                
+
+                <!-- 执法信息详情模态框 -->
+                <div class="modal fade enforceModal" id="enforceModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">
+                            <span aria-hidden="true">&times;</span>
+                            <span class="sr-only">Close</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="photo_info_block">
+                            <div class="prev_btn">
+                                <img src="images/enforcement_prev.png" />
+                            </div>
+                            <div class="photo_info">
+                            <div class="photo_list">
+                                <span class="s_item">
+                                    <img src="images/enforcement_pic3.jpg" />
+                                </span>
+                                <span class="s_item">
+                                    <img src="images/ico_zhifa.png" />
+                                </span>
+                                <span class="s_item">
+                                    <img src="images/enforcement_ico1.jpg" />
+                                </span>
+                            </div>
+                            </div>
+                            <div class="next_btn">
+                                <img src="images/enforcement_next.png" />
+                            </div>
+                            <div class="total_num">
+                                <span class="dq_active">2</span>&nbsp;/&nbsp;<span class="coment">3</span>
+                            </div>
+                        </div>
+                        <div class="zfxx_text">
+                            <div class="mt15 mb15 clear">
+                                <p class="txt txt1"><span class="p_name"><img src="images/enforcement_ico2.jpg" />地块名称：</span>5号大田</p>
+                                <p class="txt txt2"><span class="p_name"><img src="images/enforcement_ico3.jpg" />执法人：</span>李四</p>
+                                <p class="txt txt3"><span class="p_name"><img src="images/enforcement_ico4.jpg" />执法时间：</span>2016-03-12 12:36</p>
+                                <p class="txt txt4 mt10"><span class="p_name"><img src="images/enforcement_ico5.jpg" />执法意见：</span>土地不明确，每宗地的土地权需要经过土地登记申请、地籍调查、合数审核、登记注册、</p>
+                            </div>
+                        </div>
+                    </div>                
+                </div>
+                </div>
+                </div>
+                <!-- 执法信息详情模态框 -->
+            </div>
+            </td>    
+    <!--右边结束-->
+    </tr>  
+   </table> 
+</div>
+
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/bootstrap-select.min.js"></script>
+<script type="text/javascript" src="js/bootstrap-datetimepicker.js"></script>
+<script type="text/javascript" src="js/bootstrap-datetimepicker.zh-CN.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+
+    // 获取焦点和失去焦点状态
+    $('input[type=text]').focus(function(){
+        var txt_value = $(this).val();
+        if(txt_value==this.defaultValue){
+            $(this).val("");    
+        };  
+    });
+    $('input[type=text]').blur(function(){
+        var txt_value = $(this).val();
+        if(txt_value==""){
+            $(this).val(this.defaultValue); 
+        };  
+    }); 
+
+    //下拉菜单
+    $('.selectpicker').selectpicker();  
+
+    $('.area_pic a').each( function (index,elem) {
+        // 当图片点击时，显示信息详情，并且把外层滚动条去掉
+        $(elem).click(function(){
+            $('#enforceModal').modal('show');
+            $('html').css('overflow','hidden');
+            zfxxSwitch('.photo_list','.photo_list .s_item',$(elem).index());
+        });
+    })
+    $('.reason').on('click', function () {
+        // 当文字点击时，显示信息详情，并且把外层滚动条去掉
+        $('html').css('overflow','hidden');
+    })
+    $('#enforceModal').on('hide.bs.modal', function () {
+        // 当图片或文字点击时，隐藏信息详情，并且把外层滚动条显示出来
+        $('html').css('overflow','auto');
+    })
+
+
+    // 执法信息详情焦点图片等状态变化
+    zfxxSwitch('.photo_list','.photo_list .s_item',0);
+    function zfxxSwitch(obj,items,starNum){
+        var sNum = starNum;
+        var sItemLen = $(items).length;
+        var Lenging = sItemLen-1;
+        $(obj).parents('.photo_info_block').find('.dq_active').html(sNum+1);
+        $(obj).parents('.photo_info_block').find('.coment').html(sItemLen);
+        $(obj).stop().animate({ 'left' : -840 * sNum });
+        if( Lenging<1 ){
+            // 如果只有一张图时，显示效果
+            sNum = 0;
+            $(obj).css({ 'left' : 0 });
+            $('.prev_btn,.prev_btn').unbind('click')
+            $('.prev_btn,.prev_btn').removeClass('dq_cur');
+            $(obj).parents('.photo_info_block').find('.total_num').hide(); 
+        }else{
+            $(obj).parents('.photo_info_block').find('.total_num').show(); 
+            $('.prev_btn').on('click', function(event) {
+                // 左侧按钮点击事件
+                sNum--;
+                if( sNum < 0 ){ sNum = 0; }
+                if( sNum <1 ){
+                    $(this).removeClass('dq_cur');
+                }else{
+                    $(this).addClass('dq_cur');
+                }
+                $(obj).stop().animate({ 'left' : -840 * sNum });
+                $(this).siblings('.next_btn').removeClass('dq_cur');
+                $(obj).parents('.photo_info_block').find('.dq_active').html(sNum+1);
+            }); 
+            $('.next_btn').on('click', function(event) {
+                // 右侧按钮点击事件
+                sNum++;
+                if( sNum > Lenging ){ sNum = Lenging; }
+                if( sNum > Lenging-1 ){
+                    $(this).removeClass('dq_cur');
+                }else{
+                    $(this).addClass('dq_cur');
+                }
+                $(obj).stop().animate({ 'left' : -840 * sNum });
+                $(this).siblings('.prev_btn').removeClass('dq_cur');
+                $(obj).parents('.photo_info_block').find('.dq_active').html(sNum+1);
+            });  
+        }
+    }
+
+    // 时间控件
+    $(".input-append").datetimepicker({
+        format: "yyyy-mm-dd",  /* 控制显示格式，默认为空，显示小时分钟 */
+        autoclose: true,
+        weekStart: 1,
+       //startDate: "2014-08-14",
+        language:  'zh-CN',
+        startView: 3,
+        minView: 2,
+        maxView: 4,     
+        pickerPosition: "bottom-left"
+    });
+    
+    getheight();
+    function getheight(){
+        var oBodyW = $('body').width();
+        if( oBodyW < 1280 ){
+            // 小屏执法列表添加small_content
+            $('.enforce_date_block').addClass('small_content');
+        }else{
+            // 大屏执法列表移除small_content
+            $('.enforce_date_block').removeClass('small_content');
+        }
+    }
+    $(window).resize(function(event) {
+        getheight();
+    });
+});
+
+</script>
+
+</body>
+</html>
+

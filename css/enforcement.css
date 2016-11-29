@@ -1,0 +1,177 @@
+@charset "utf-8";
+/* CSS Document */
+*,*:after,*:before{ box-sizing: border-box;}
+html{ height:inherit;}
+html,body,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,div,p,strong,em,i,b,font,a,span{ margin: 0;padding: 0;}
+body{ min-width:1000px; font-family:'微软雅黑'; font-size:12px; color:#525252;}
+.content{ min-width:1000px;}
+ul,ol,li{ list-style: none;}
+.fl{ float:left; display:inline-block;}
+.fr{ float:right; display:inline-block;}
+.clear{ clear:both;}
+.clear:after{ clear:both; content:""; display:block; visibility:hidden; height:0;}
+img{ border: none;}
+em{ font-style:normal;}
+.mt5{ margin-top: 5px;}
+.mt10{ margin-top: 10px;}
+.mt15{ margin-top: 15px;}
+.mr5{ margin-right: 5px;}
+.mr10{ margin-right: 10px;}
+.mr20{margin-right: 20px;}
+.mb5{ margin-bottom: 5px;}
+.mb10{ margin-bottom: 10px;}
+.mb15{ margin-bottom: 15px;}
+.ml5{ margin-left: 5px;}
+.ml10{ margin-left: 10px;}
+.ml20{margin-left: 20px;}
+.pt5{ padding-top: 5px;}
+.pt8{ padding-top: 8px;}
+.pt10{ padding-top: 10px;}
+.btn{ height: 34px; line-height: 20px; padding: 6px 19px;}
+.bootstrap-select>.btn{ padding-left: 12px;}
+.bootstrap-select{ width: 100%;}
+.bootstrap-select:not([class*=span]):not([class*=col-]):not([class*=form-control]):not(.input-group-btn){ width: 100%;}
+.bootstrap-select.btn-group .dropdown-menu{ max-width: 200px; height: 200px-;}/* 控制下拉菜单最大宽和高 */
+.octicon-search02{ background:url(../images/cjsearch_bg.png) no-repeat;}
+
+/* 公用面包屑导航  */
+.mr5{ margin-right:5px;}
+.r_t_l{ font-family:'微软雅黑';}
+.r_t_l span{ font-size:12px;}
+.r_t_l em{ padding:0 5px; font-style:normal; }
+.cm_resumeList li{float: left;}
+.cm_resumeList li a{display: block; height: 44px; line-height: 44px; padding: 0 10px; color: #3f3f3f; overflow: hidden; font-family: '宋体';}
+.borderBt{border-bottom: 2px solid #33aedc;}
+.cm_resumeList li img{float: left; margin-top: 16px;}
+.cm_resumeList li span{float: left; text-indent: 10px;}
+/* 公用搜索及下拉菜单 */
+.search_header{ position: relative; padding: 10px 0; padding-right: 70px;}
+.search_header .form-control{ width: 300px; height: 34px; line-height: 20px; padding-left: 25px; font-size: 12px; color: #cbcbcb;}
+.search_header .btn{ font-size: 12px;}
+.search_blt{ float: left; padding: 5px 0;}
+.search_brt{ position: absolute; right: 0; top: 15px;}
+.search_selected{ padding: 5px 0;}
+.se_selt180{ width: 180px;}
+.se_selt180 dt{ float: left; width: 80px; line-height: 34px; padding-right: 10px; font-weight:normal; text-align: right;}
+.se_selt180 dd{ float: left;}
+.boot_selected_100{ width: 100px;}
+.boot_selected_180{ width: 180px;}
+/* 日历小图标替换图标字体的样式 */
+.form_datetime{position:relative;width:200px; }
+.form_datetime input{width:100%; height:34px;line-height: 32px; padding:0 5px;box-sizing:border-box; }
+.form_datetime .add-on{position:absolute; right:5px;top:10px;width:14px;height:14px;}
+.form_datetime .add-on .icon-th,
+.input-append.date .add-on i{display:block;width:14px;height:14px;margin:0;}
+[class*=" datetimepicker-dropdown"]{margin:12px 0 0 6px;}
+[class^="icon-"], [class*=" icon-"] {background-image: url("../images/glyphicons-halflings.png");
+    background-position: 14px 14px; background-repeat: no-repeat;display: inline-block;height: 14px;line-height: 14px;margin-top: 1px; vertical-align: text-top;width: 14px;}
+.icon-arrow-left {background-position: -240px -96px;}
+.icon-arrow-right { background-position: -264px -96px;}
+.icon-ok{background-position: -288px 0px; }
+.form_datetime .add-on .icon-th { background-position: -240px 0;}
+[class*=" datetimepicker-dropdown"]:before{ position: absolute;right:5px;top:-7px;}
+[class*=" datetimepicker-dropdown"]:after{ position: absolute;right:6px;top:-6px;}
+/* 日历小图标替换图标字体的样式 结束 */
+
+/* 执法信息页面样式 */
+/* 执法报告 */
+.enforcement_report{ border: 1px solid #dedede;}
+.report_header{ padding:10px; border-bottom: 1px solid #dedede; background-color: #fcfcfc;}
+.report_header h4{ float: left; height: 20px; line-height: 20px; font-size: 14px; font-weight: normal;}
+.report_header .more_link{ float: right; height: 20px; line-height: 20px; color: #1d7bff;}
+.report_list .r_items{ position: relative; margin-bottom: -1px; padding: 10px 10px 10px 130px; border-bottom: 1px dashed #dedede; color: #737373;}
+.report_list .items_lt{ position: absolute; left: 10px; top: 10px; width: 110px;height: 110px; background-color: #f1f1f1;}
+.report_list .items_lt img{ width: 100%; min-height: 100%;}
+.report_list .items_rt{ float: left; width: 100%; height: 110px;}
+.report_list .txt{ float: left; width: 33.33%; height: 20px; line-height: 20px; white-space: nowrap; text-overflow:ellipsis; overflow: hidden;}
+.report_list .txt img,
+.report_list .txt4 img{ margin-right: 5px; vertical-align: top;}
+.report_list .txt2{ text-align: center;}
+.report_list .txt3{ text-align: right;}
+.report_list .table_zf{ width: 100%; height: 60px; line-height: 20px;}
+.report_list .table_zf .txt4{ position: relative; line-height: 20px; padding-left: 86px; color: #737373;}
+.report_list .table_zf .zzyj_txt{ position: absolute; left: 0; top: 0; line-height: 20px; color: #000;}
+.report_list .p_name{ color: #000;}
+.pank_nodata{ margin-top: 80px; text-align: center;}
+.pank_nodata img{ margin-bottom: 15px;}
+.pank_nodata font{ display:block; font-size: 14px;}
+/*执法信息列表*/
+.dropdown .dropdown-menu{ top:100%;bottom: inherit;}
+.boot_datetime_140 .form_datetime{ float: left; width: 140px;}
+.boot_datetime_140 .boot_line{ float: left; height: 34px; line-height: 34px; padding: 0 5px;}
+.enforce_date_block .date_item{ position: relative; padding: 10px 0;}
+.enforce_date_block .year_md{ position: absolute; left: 0; top: 0; width: 100px; height: 30px; line-height: 30px; background-color: #fff; font-size: 18px; font-weight:bold; text-align: right; color: #8f8f8f;}
+.date_table{ min-height: 40px;}
+.date_table .date_tdlt{ width: 110px; padding-top: 10px; padding-bottom: 10px; background: url(../images/enforcement_line1.jpg) repeat-y center top; text-align: right;}
+.date_table .date_tdrt{ padding-top: 10px; padding-bottom: 10px; padding-left: 20px;}
+.date_table .zf_timer{ display: inline-block; width: 58px; height: 20px; line-height: 20px; padding-left: 15px; background: url(../images/enforcement_line2.jpg) no-repeat; text-align: left; font-size: 14px; color: #999;}
+.read_state{ position: relative; min-height: 66px; border: 1px solid #dedede; border-radius: 9px;}
+.read_state:before{ position: absolute;left: -10px; top: 50%; margin-top: -10px; content: ""; border-width: 10px 10px 10px 0;  border-color: transparent #dedede transparent transparent; border-style: solid;}
+.read_state:after{ position: absolute;left: -9px; top: 50%; margin-top: -10px; content: ""; border-width: 10px 10px 10px 0;  border-color: transparent #fff transparent transparent; border-style: solid;}
+.read_state .state_info{ position: relative; padding: 10px 20px;}
+.read_state .i_icon{ position: absolute; right: 0; top: 0; width: 50px; height: 50px;}
+.read_state .i_icon img{ width: 100%; height: 100%;}
+.read_state .reason{ line-height: 20px; margin-bottom: 5px; padding-right: 30px; font-size: 14px; cursor: pointer;}
+.read_state .p_txt{ display: inline-block; height: 20px; line-height: 20px; color: #999;}
+.read_state .p_txt img{ width: 20px; height: 20px; vertical-align: top; margin-right: 5px;}
+.read_state .p_txt span{ color: #000;}
+.read_state .area_pic{ width: 690px; height: 120px; overflow: hidden;}
+.read_state .area_pic a{ float: left; width: 110px; height: 110px; margin: 5px 5px 5px 0; background-color: #f1f1f1; border-radius: 2px; overflow: hidden; }
+.read_state .area_pic a > img{ width: 100%; min-height: 100%;
+   -moz-transition: all 0.5s ease-out;
+-webkit-transition: all 0.5s ease-out;
+     -o-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+        transition: all 0.5s ease-out;}
+.read_state .area_pic a:hover > img{ 
+   -moz-transform: scale(1.2);
+     -o-transform: scale(0.0.5);
+-webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+        transform: scale(1.2);}
+
+/*执法信息列表－－执法信息详情*/
+.enforceModal .modal-dialog{ width: 980px; margin:5% auto; }
+.enforceModal .modal-content{ border-radius: 0;}
+.enforceModal .modal-header{ height: 36px; padding: 0; border-bottom: 0;}
+.enforceModal .modal-header .close{ width: 36px; height: 36px; line-height: 36px; margin: 0; background-color: #ddd; font-family:'宋体'; text-align: center;}
+.enforceModal .modal-body{ padding: 0 69px;}
+.photo_info_block{ position: relative;}
+.photo_info_block .prev_btn,
+.photo_info_block .next_btn{ position: absolute; top: 50%; margin-top: -45px; width: 30px; height: 90px; background-color: #515558; text-align: center; cursor: pointer;}
+.photo_info_block .prev_btn{ left: 0; margin-left: -30px; border-radius: 8px 0 0 8px;}
+.photo_info_block .next_btn{ right: 0; margin-right: -30px; border-radius: 0 8px 8px 0; }
+.photo_info_block .prev_btn img,
+.photo_info_block .next_btn img{ margin-top: 32px;}
+.photo_info_block .prev_btn.dq_cur,
+.photo_info_block .next_btn.dq_cur{ background-color: #31a4ff;}
+.photo_info_block .photo_info{ position: relative; width: 840px; height: 490px; background-color: #f6f6f6; overflow: hidden;}
+.photo_list{ position: absolute;left: 0; top: 0; height: 100%;}
+.photo_list .s_item{ float: left; width: 840px; height: 490px; text-align: center;}
+.photo_list .s_item>img{ max-width: 100%; min-height: 100%;}
+.photo_info_block .total_num{ position: absolute; left: 50%; bottom: 10px; width: 122px; height: 33px; line-height: 33px; margin-left: -61px; text-align: center; overflow: hidden;
+ background: url(../images/enforcement_bg1.png) no-repeat; font-size: 14px; color: #fff;}
+.photo_info_block .total_num .dq_active{ font-size: 18px;}
+.zfxx_text .txt{ float: left; width: 33.33%; height: 20px; line-height: 20px; white-space: nowrap; text-overflow:ellipsis; overflow: hidden; color: #999;}
+.zfxx_text .txt img,
+.zfxx_text .txt4 img{ margin-right: 5px; vertical-align: top;}
+.zfxx_text .txt2{ text-align: center;}
+.zfxx_text .txt3{ text-align: right;}
+.zfxx_text .txt4{ position:relative; width: 100%; padding-left:85px; height: inherit; box-sizing:border-box; white-space:inherit;}
+.zfxx_text .txt4 .p_name{ position:absolute; left:0; top:0;}
+.zfxx_text .txt .p_name{ color: #000;}
+
+
+/*  屏幕小于1280以下的样式 */
+/*小屏执法信息列表*/
+.small_content .read_state .state_info{ padding: 10px 10px;}
+.small_content .date_table .date_tdrt{ padding-left: 10px;}
+.small_content .read_state .area_pic{ width: 510px; height: 90px;}
+.small_content .read_state .area_pic a{ width: 80px; height: 80px;}
+
+
+
+
+
+
+
